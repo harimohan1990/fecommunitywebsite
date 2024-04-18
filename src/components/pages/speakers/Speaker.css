@@ -1,0 +1,79 @@
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .speakers-section {
+    padding: 20px;
+  }
+  .intro {
+    text-align: center;
+  }
+  .speaker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .speaker {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .speaker img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .speakers-section {
+    padding: 30px;
+  }
+  .intro {
+    text-align: center;
+  }
+  .speaker-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .speaker {
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 300px;
+  }
+  .speaker img {
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    border-radius: 50%;
+  }
+}
+
+/* Laptop/Desktop Styles */
+@media (min-width: 1025px) {
+  .speakers-section {
+    padding: 50px;
+  }
+  .intro {
+    text-align: center;
+  }
+  .speaker-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  .speaker {
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: 300px;
+  }
+  .speaker img {
+    width: 250px; /* Adjust size as needed */
+    height: 250px; /* Adjust size as needed */
+    border-radius: 50%;
+  }
+}
